@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LibreriaBeca</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      media="(prefers-color-scheme: light)"
+      href="css/light.css"
+    />
+    <link
+      rel="stylesheet"
+      media="(prefers-color-scheme: dark)"
+      href="css/dark.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <nav class="navbar">
+          <div class="logo__section">
+            <!-- Botón de menú para resoluciones móviles -->
+            <a class="menu__button" aria-label="Toggle menu">
+              <i class="bi bi-list"></i>
+            </a>
+            <a href="#" class="logo">Libreria<span>Beca</span></a>
+            <select
+              name="language__selector"
+              id="language__selector"
+              class="language__selector"
+            >
+              <option>Español</option>
+              <option>Ingles</option>
+            </select>
+          </div>
+          <!-- Menú principal -->
+          <ul class="menu">
+            <li class="menu__list">
+              <a href="#" class="menu__link">Inicio</a>
+            </li>
+            <li class="menu__list">
+              <a href="#" class="menu__link">Libros</a>
+            </li>
+            <li class="menu__list">
+              <a href="#" class="menu__link">Contacto</a>
+            </li>
+          </ul>
+          <div class="search__zone">
+            <div class="search__container">
+              <span class="search__icon"><i class="bi bi-search"></i></span>
+              <input type="search" placeholder="Buscar" class="search__bar" />
+            </div>
+            <a href="#" class="card">Carrito<i class="bi bi-cart"></i></a>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Menú popup oculto -->
+    <div class="popup__menu">
+      <ul>
+        <li><a href="#">Inicio</a></li>
+        <li><a href="#">Libros</a></li>
+        <li><a href="#">Contacto</a></li>
+      </ul>
+    </div>
+
+    <main>
+      <section class="book">
+        <div class="container">
+          <div class="book__info_container">
+            <img
+              src="img/guerrera.png"
+              class="book__image"
+              alt="Portada de El Camino de la Guerrera"
+            />
+            <div class="book__resume">
+              <h2 class="book__title">EL CAMINO DE LA GUERRERA</h2>
+              <p class="book__autor">ENCARNI HERRERA</p>
+              <p class="book__isbn">ALFAGUARA - 9788410299634</p>
+              <span class="book__category">Novela</span>
+              <span class="book__category">Narrativa española</span>
+              <h4 class="book__sinopsis">Sinopsis de la novela</h4>
+              <p class="book_description">
+                Una mujer enfrenta sus mayores desafíos en un viaje de
+                autodescubrimiento y empoderamiento. A medida que lucha contra
+                sus miedos y limitaciones, descubre que la verdadera fortaleza
+                está dentro de ella. Un relato inspirador sobre el coraje y la
+                superación personal.
+              </p>
+            </div>
+            <div class="book__buy_container">
+              <div>
+                <h3 class="book__price">49,95€</h3>
+                <p>Envío gratis</p>
+              </div>
+              <button
+                class="button_add_cart"
+                aria-label="Añadir El Camino de la Guerrera al carrito"
+              >
+                <i class="bi bi-cart"></i> Añadir al carrito
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="technical__sheet_section">
+        <div class="container">
+          <div class="line-with-title">
+            <hr />
+            <span>Ficha técnica</span>
+            <hr />
+          </div>
+          <div class="technical__sheet">
+            <table class="book-table">
+              <tr>
+                <td>Editorial:</td>
+                <td>Alfaguara</td>
+              </tr>
+              <tr>
+                <td>ISBN:</td>
+                <td>9788410299634</td>
+              </tr>
+              <tr>
+                <td>Idioma:</td>
+                <td>Castellano</td>
+              </tr>
+              <tr>
+                <td>Número de páginas:</td>
+                <td>416</td>
+              </tr>
+              <tr>
+                <td>Encuadernación:</td>
+                <td>Tapa dura</td>
+              </tr>
+              <tr>
+                <td>Fecha de lanzamiento:</td>
+                <td>08/10/2024</td>
+              </tr>
+            </table>
+
+            <div class="vertical-line"></div>
+
+            <table class="book-table">
+              <tr>
+                <td>Año de edición:</td>
+                <td>2024</td>
+              </tr>
+              <tr>
+                <td>Plaza de edición:</td>
+                <td>España</td>
+              </tr>
+              <tr>
+                <td>Alto:</td>
+                <td>24.6 cm</td>
+              </tr>
+              <tr>
+                <td>Ancho:</td>
+                <td>15.3 cm</td>
+              </tr>
+              <tr>
+                <td>Grueso:</td>
+                <td>3.2 cm</td>
+              </tr>
+              <tr>
+                <td>Peso:</td>
+                <td>756.0 gr</td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      <section class="offert__books">
+        <div class="container">
+          <h2 class="tilte__">Libros Recomendados</h2>
+          <div class="promo__grid">
+            <i class="bi bi-arrow-left-circle-fill"></i>
+            <div class="promo__item">
+              <img src="img/reyes.png" class="promo__img" alt="reyes" />
+              <h3 class="promo__title">Reyes Caidos</h3>
+              <div class="book__ranking">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+              </div>
+              <p class="promo__price">49.95€</p>
+            </div>
+            <div class="promo__item">
+              <img src="img/vidas.png" class="promo__img" alt="vidas" />
+              <h3 class="promo__title">Las Vidas</h3>
+              <div class="book__ranking">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+              </div>
+              <p class="promo__price">39.95€</p>
+            </div>
+            <div class="promo__item">
+              <img src="img/guerrera.png" class="promo__img" alt="guerrera" />
+              <h3 class="promo__title">La Guerrera</h3>
+              <div class="book__ranking">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+              </div>
+              <p class="promo__price">49.95€</p>
+            </div>
+            <div class="promo__item">
+              <img src="img/cruce.png" class="promo__img" alt="cruce" />
+              <h3 class="promo__title">Cruce de Caminos</h3>
+              <div class="book__ranking">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+              </div>
+              <p class="promo__price">29.95€</p>
+            </div>
+            <i class="bi bi-arrow-right-circle-fill"></i>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__columns">
+          <div class="footer__column">
+            <h3>CONTACTOS</h3>
+            <ul class="footer__column_list">
+              <li>
+                <a href="#">
+                  <i class="bi bi-telephone"></i>
+                  <span>Teléfono: +34 633 58 85 56</span>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="bi bi-envelope"></i>
+                  <span>libreriabeca@gmail.com</span>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="bi bi-clock"></i>
+                  <span>Lunes – Viernes: 9:00-20:00</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer__column">
+            <h3>REDES SOCIALES</h3>
+            <ul class="footer__column_list">
+              <li>
+                <a href="#">
+                  <i class="bi bi-instagram"></i>
+                  <span>Instagram</span>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="bi bi-facebook"></i>
+                  <span>Facebook</span>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="bi bi-twitter"></i>
+                  <span>Twitter-x</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <hr />
+        <p class="copyright">© 2024 LibreriaBeca</p>
+      </div>
+    </footer>
+    <script src="js/main.js"></script>
+  </body>
+</html>

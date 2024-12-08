@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LibreriaBeca</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" media="(prefers-color-scheme: light)" href="css/light.css">
+    <link rel="stylesheet" media="(prefers-color-scheme: dark)" href="css/dark.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <script src="js/main.js" defer></script>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="navbar">
+                <div class="logo__section">
+                    <!-- Botón de menú para resoluciones móviles -->
+                    <a class="menu__button" aria-label="Toggle menu">
+                        <i class="bi bi-list"></i>
+                    </a>
+                    <a href="#" class="logo">Libreria<span>Beca</span></a>
+                    <select name="language__selector" id="language__selector" class="language__selector">
+                        <option>Español</option>
+                        <option>Ingles</option>
+                    </select>
+                </div>
+                <!-- Menú principal -->
+                <ul class="menu">
+                    <li class="menu__list"><a href="#" class="menu__link">Inicio</a></li>
+                    <li class="menu__list"><a href="#" class="menu__link">Libros</a></li>
+                    <li class="menu__list"><a href="#" class="menu__link">Contacto</a></li>
+                </ul>
+                <div class="search__zone">
+                    <div class="search__container">
+                        <span class="search__icon"><i class="bi bi-search"></i></span>
+                        <input type="search" placeholder="Buscar" class="search__bar">
+                    </div>
+                    <a href="#" class="card">Carrito<i class="bi bi-cart"></i></a>
+                </div>
+            </nav>
+        </div>
+    </header>
+    
+    <!-- Menú popup oculto -->
+    <div class="popup__menu">
+        <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Libros</a></li>
+            <li><a href="#">Contacto</a></li>
+        </ul>
+    </div>
+    
+    <main>
+        <section class="hero__section">
+            <div class="container">
+                <div class="hero__grid">
+                    <div class="hero__info_section">
+                        <h2 class="hero__title">Los libros más vendidos y los tesoros locales</h2>
+                        <p class="hero__text">
+                            Explora nuestra amplia colección de los 
+                            libros más vendidos y descubre los tesoros
+                            literarios de autores locales que no 
+                            encontrarás en ningún otro lugar
+                        </p>
+                        <button class="button">Descubre más</button>
+                    </div>             
+                    <img src="img/imagenHero.png" class="hero__image" alt="heroImagen">
+                </div>
+            </div>
+        </section>
+
+        <section class="books__section">
+            <div class="container">
+
+                <div class="section__title">
+                    <h2 class="title">Libros Destacados</h2>
+                    <p class="subtitle">
+                        Explora los libros más populares de nuestra tienda 
+                    </p>
+                </div>
+                <div class="promo__grid">
+                    <i class="bi bi-arrow-left-circle-fill"></i>
+                    <div class="promo__item">
+                        <img src="img/reyes.png" class="promo__img"  alt="reyes">
+                        <h3 class="promo__title">Reyes Caidos</h3>
+                        <p class="promo__price">49.95€</p>
+                    </div>
+                    <div class="promo__item">
+                        <img src="img/vidas.png" class="promo__img"  alt="vidas">
+                        <h3 class="promo__title">Las Vidas</h3>
+                        <p class="promo__price">39.95€</p>
+                    </div>
+                    <div class="promo__item">
+                        <img src="img/guerrera.png" class="promo__img"  alt="guerrera">
+                        <h3 class="promo__title">La Guerrera</h3>
+                        <p class="promo__price">49.95€</p>
+                    </div>
+                    <div class="promo__item">
+                        <img src="img/cruce.png" class="promo__img"  alt="cruce">
+                        <h3 class="promo__title">Cruce de Caminos</h3>
+                        <p class="promo__price">29.95€</p>
+                    </div>
+                    <i class="bi bi-arrow-right-circle-fill"></i>
+                </div>                  
+            </div>
+        </section>
+
+        <section class="editorial__section">
+            <div class="container">
+
+                <div class="section__title">
+                    <h2 class="title">Editoriales</h2>
+                    <p class="subtitle">
+                        Conoce a los autores más populares Españoles 
+                    </p>
+                </div>
+                <div class="editorial__grid">
+                    <div class="editorial">
+                        <img src="img/anagrama.png" class="editorial__img"  alt="anagrama">
+                    </div>
+                    <div class="editorial">
+                        <img src="img/acantilado.png" class="editorial__img"  alt="acantilado">
+                    </div>
+                    <div class="editorial">
+                        <img src="img/planeta.png" class="editorial__img"  alt="planeta">
+                    </div>
+                    <div class="editorial">
+                        <img src="img/tusquets.png" class="editorial__img"  alt="rusuquets">
+                    </div>
+                </div>   
+                
+        </section>
+
+        <section class="autors__section">
+            <div class="container">
+
+                <div class="section__title">
+                    <h2 class="title">Autores Populares</h2>
+                    <p class="subtitle">
+                        Conoce a los autores más populares Almerienses  
+                    </p>
+                </div>
+                <div class="promo__grid">
+                    <i class="bi bi-arrow-left-circle-fill"></i>
+                    <div class="promo__item">
+                        <img src="img/fernandoMartinez.png" class="promo__img"  alt="fernando">
+                        <h3 class="promo__title">Fernando Martínez</h3>
+                    </div>
+                    <div class="promo__item">
+                        <img src="img/juanPardo.png" class="promo__img"  alt="juan">
+                        <h3 class="promo__title">Juan Pardo Vidal</h3>
+                    </div>
+                    <div class="promo__item">
+                        <img src="img/raulQuinto.png" class="promo__img"  alt="raul">
+                        <h3 class="promo__title">Raúl Quinto Cartagena</h3>
+                    </div>
+                    <div class="promo__item">
+                        <img src="img/juanManuel 1.png" class="promo__img"  alt="juanManuel">
+                        <h3 class="promo__title">Juan Manuel Gillermo</h3>
+                    </div>
+                    <i class="bi bi-arrow-right-circle-fill"></i>
+                </div>                  
+            </div>
+        </section>
+        <section class="testemony__section">
+            <div class="container">
+
+                <div class="section__title">
+                    <h2 class="title">Testemonio de Clientes</h2>
+                    <p class="subtitle">
+                        Conoce las opiniones de nuestros clientes mas seguros   
+                    </p>
+                </div>
+                <div class="client__grid">
+                    <div class="testemony__item">
+                        <div class="client__info">
+                            <img src="img/4.png" class="client__image"  alt="SergioRodríguez">
+                            <div>
+                                <h3 class="client__name">Sergio Rodríguez</h3>
+                                <p class="client__location">Madrid, Madrid</p>
+                            </div>                       
+                        </div>
+                        <p class="client__opinion">
+                            La página está bien diseñada, es intuitiva y atractiva. 
+                            El proceso de compra fue rápido y sencillo, ideal para los amantes 
+                            de la lectura. Se la recomiendo a todos.
+                        </p>
+                    </div>
+                    <div class="testemony__item">
+                        <div class="client__info">
+                            <img src="img/1.png" class="client__image"  alt="AnaMartínez">
+                            <div>
+                                <h3 class="client__name">Ana Martínez</h3>
+                                <p class="client__location">Almería, Almería</p>
+                            </div>                       
+                        </div>
+                        <p class="client__opinion">
+                            La web es fácil de usar, con una barra de búsqueda eficiente 
+                            y secciones bien organizadas. Me encantó la selección de 
+                            autores locales. Volveré a comprar aquí.
+                        </p>
+                    </div>
+
+                </div>             
+            </div>
+        </section>
+
+        <section class="contact__section">
+            <div class="container">
+                <div class="contact__grid">
+                    <div class="contact__info">
+                        <h2 class="contact__title">¿Necesitas más información? ¡Contáctanos!</h2>
+                        <p class="contact__text">¿Necesitas más información? ¡Contáctanos!
+                            Estamos aquí para ayudarte con cualquier duda que tengas. Ya sea que busques recomendaciones personalizadas, más información sobre un libro, o quieras conocer nuestras últimas novedades, no dudes en escribirnos. Nuestro equipo estará encantado de asistirte.
+                            
+                            <br><br> ¡Te responderemos lo antes posible!</p>
+    
+                    </div>
+                    <form class="contact__form">
+                        <input type="text" placeholder="Nombre" class="text__field">
+                        <input type="text" placeholder="Email"  class="text__field">
+                        <input type="text" placeholder="Mensaje" class="text__field">
+                        <input type="submit" class="button">
+                    </form>
+                </div>                
+            </div>
+        </section> 
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__columns">
+                <div class="footer__column">
+                    <h3>CONTACTOS</h3>
+                    <ul class="footer__column_list">
+                        <li>
+                            <a href="#">
+                                <i class="bi bi-telephone"></i>
+                                <span>Teléfono: +34 633 58 85 56</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="bi bi-envelope"></i>
+                                <span>libreriabeca@gmail.com</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="bi bi-clock"></i>
+                                <span>Lunes – Viernes: 9:00-20:00</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer__column">
+                    <h3>REDES SOCIALES</h3>
+                    <ul class="footer__column_list">
+                        <li>
+                            <a href="#">
+                                <i class="bi bi-instagram"></i>
+                                <span>Instagram</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="bi bi-facebook"></i>
+                                <span>Facebook</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="bi bi-twitter"></i>
+                                <span>Twitter-x</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">© 2024 LibreriaBeca</p>
+        </div>
+    </footer>
+</body>
+</html>
