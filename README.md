@@ -10,5 +10,15 @@ Este proyecto es la tarea del Módulo Diseño Interfaces Web (DIW). En esta tare
 - Animaciones web
 - Funciones interactivas con uso de JavaScript
 
+**Nivel de Accesibilidad**
+
+![Captura de pantalla](images/1.png)
+![Captura de pantalla](images/2.png)
+![Captura de pantalla](images/3.png)
+![Captura de pantalla](images/4.png)
+![Captura de pantalla](images/5.png)
+![Captura de pantalla](images/6.png)
+
+
 ---
 **Autor:** Konstantin Krishtapov
