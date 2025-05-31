@@ -1557,4 +1557,8 @@ select {
     flex-direction: column;
     gap: 8px;
   }
+
+  .animated-separator {
+    display: none;
+  }
 }
