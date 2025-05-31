@@ -267,7 +267,7 @@ main {
 .hero__section {
   margin-top: 0;
   position: relative;
-  background-image: url("./img/montaje.jpg");
+  background-image: url("../img/montaje.jpg");
   background-size: cover;
   background-position: center right;
   background-repeat: no-repeat;
