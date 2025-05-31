@@ -164,7 +164,7 @@ if (searchInput) {
     if (e.key === "Enter") {
       const query = searchInput.value.trim();
       if (query) {
-        window.location.href = "ficha_libro.html";
+        window.location.href = "busqueda.html";
       }
     }
   });
