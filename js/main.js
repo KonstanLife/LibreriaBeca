@@ -266,9 +266,9 @@ if (btnCart) {
   // Actualizar el botón según el estado del libro
   function updateButton() {
     if (isInCart(bookTitle)) {
-      btnCart.innerHTML = `<img src="../img/iconos/eleminar.svg" class="icono" alt="Eliminar del carrito"> Eliminar del carrito`;
+      btnCart.innerHTML = `<img src="./img/iconos/eleminar.svg" class="icono" alt="Eliminar del carrito"> Eliminar del carrito`;
     } else {
-      btnCart.innerHTML = `<img src="../img/iconos/aniadir.svg" class="icono" alt="Añadir al carrito"> Añadir al carrito`;
+      btnCart.innerHTML = `<img src="./img/iconos/aniadir.svg" class="icono" alt="Añadir al carrito"> Añadir al carrito`;
     }
   }
 
