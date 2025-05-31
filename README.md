@@ -10,6 +10,11 @@ Este proyecto es la tarea del Módulo Diseño Interfaces Web (DIW). En esta tare
 - Animaciones web
 - Funciones interactivas con uso de JavaScript
 
+**Funcionamiento de web**
+
+Mira el video aquí: [Video en YouTube](https://www.youtube.com/watch?v=6AyN3bY1jmM)
+
+
 **Nivel de Accesibilidad**
 
 ![Captura de pantalla](capturas/1.png)
