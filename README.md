@@ -12,12 +12,12 @@ Este proyecto es la tarea del Módulo Diseño Interfaces Web (DIW). En esta tare
 
 **Nivel de Accesibilidad**
 
-![Captura de pantalla](images/1.png)
-![Captura de pantalla](images/2.png)
-![Captura de pantalla](images/3.png)
-![Captura de pantalla](images/4.png)
-![Captura de pantalla](images/5.png)
-![Captura de pantalla](images/6.png)
+![Captura de pantalla](capturas/1.png)
+![Captura de pantalla](capturas/2.png)
+![Captura de pantalla](capturas/3.png)
+![Captura de pantalla](capturas/4.png)
+![Captura de pantalla](capturas/5.png)
+![Captura de pantalla](capturas/6.png)
 
 
 ---
